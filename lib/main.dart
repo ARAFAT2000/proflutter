@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 
 
+<<<<<<< HEAD
 import 'Navigate/gridview/gridbuilder.dart';
 import 'Navigate/gridview/gridcount.dart';
 import 'Navigate/gridview/gridview.dart';
 import 'Navigate/listveiw/listseparated.dart';
 import 'Navigate/listveiw/listview.dart';
 import 'Navigate/listveiw/listviewbuilder.dart';
+=======
+import 'Navigate/listveiw/listview.dart';
+>>>>>>> github/main
 import 'bottomnav3/curvenav.dart';
 import 'bottomnav4/convex.dart';
 import 'bottonnav2/buttonnavi2.dart';
@@ -21,7 +25,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
       home: GridBuilder(),
+=======
+      home: ListVeiw(),
+>>>>>>> github/main
     );
   }
 }

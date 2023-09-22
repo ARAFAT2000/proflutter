@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:flutter/rendering.dart';
+=======
+>>>>>>> github/main
 
 class ListVeiw extends StatelessWidget {
   const ListVeiw({super.key});
@@ -9,8 +12,11 @@ class ListVeiw extends StatelessWidget {
     return Scaffold(
 
       body: ListView(
+<<<<<<< HEAD
         scrollDirection:Axis.vertical,
         shrinkWrap: true,
+=======
+>>>>>>> github/main
         
         children: [
           CircleAvatar(
@@ -27,10 +33,14 @@ class ListVeiw extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(10.0),
             child: Text('This is the default constructor of the ListView class. A ListView simply takes a list of widgets and makes it scrollable. Usually, this is used with a few children as the List will also construct invisible elements in the list, so numerous widgets may render this inefficiently.'),
+<<<<<<< HEAD
           ),
           Text('''
           Zayed Khan and Tollywood actress Sayantika Banerjee is acting in a film titled, "Chayabaaz". However, the production hit a tumultuous bump when Sayantika returned to her hometown, Kolkata, following nine days of shooting, after complaining against the film's dance director and producer. Yet in this chaos, she praised her co-star Zayed Khan to the Kolkata media.
           ''')
+=======
+          )
+>>>>>>> github/main
         ],
       )
     );
